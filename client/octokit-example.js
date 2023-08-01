@@ -8,8 +8,8 @@ auth: process.env.GITHUB_TOKEN
 // Create an issue commment
 octokit.issues.createComment({
     issue_number: 6,
-    owner: 'hamelsmu',
-    repo: 'wandb-cicd',
+    owner: 'agungpambudi',
+    repo: 'wandb-cicd-ml-gitops',
     body: "Hello! I'm making a comment from `octokit.js!`"
 });
 

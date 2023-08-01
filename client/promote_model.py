@@ -1,5 +1,5 @@
-# test this script (only works for Hamel Husain's account), replace these with your own values:
-# WANDB_RUN_ID=5ornt00u WANDB_RUN_PATH="hamelsmu/cicd_demo/" WANDB_REGISTRY_PATH="hamelsmu/model-registry/CICD_Demo_Registry" python ./client/promote_model.py
+# test this script (only works for Agung Pambudi's account), replace these with your own values:
+# WANDB_RUN_ID=5ornt00u WANDB_RUN_PATH="agungpambudi/cicd_demo/" WANDB_REGISTRY_PATH="agungpambudi/model-registry/CICD_Demo_Registry" python ./client/promote_model.py
 
 import os, wandb
 from urllib.parse import urlencode

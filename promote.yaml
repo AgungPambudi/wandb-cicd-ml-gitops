@@ -43,8 +43,8 @@ jobs:
       env:
         WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
         WANDB_RUN_ID: "${{ steps.get-runid-value.outputs.RUN_ID }}"
-        WANDB_RUN_PATH: "hamelsmu/cicd_demo/"
-        WANDB_REGISTRY_PATH: "av-team/model-registry/BDD Semantic Segmentation"
+        WANDB_RUN_PATH: "agungpambudi/cicd_demo/"
+        WANDB_REGISTRY_PATH: "teknokrat/model-registry/BDD Semantic Segmentation"
         
     - name: Create a deployment
       if: steps.wandb-promote.outcome == 'success' 
